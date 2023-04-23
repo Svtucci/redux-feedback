@@ -19,7 +19,7 @@ function App() {
           <h4>Don't forget it!</h4>
         </header>
 
-        <Route exact path="step-1">
+        <Route exact path="/">
           <FeelingOne />
         </Route>
 

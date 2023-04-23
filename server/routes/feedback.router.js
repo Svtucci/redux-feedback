@@ -26,3 +26,14 @@ router.post('/', (req, res) => {
 }); 
 
 // DELETE ROUTER MAY NOT BE NEEDED DURING SETUP 
+
+router.delete('/:id', (req, res) => {
+    console.log("In DELETE Request");
+    let queryText = 'DELETE FROM "feedback" WHERE "id" = $1';
+    pool.query(queryText, [req.param.is]).then((result) => {
+        res.send(result.rows);
+    }).catch((error) => {
+        console.log(error);
+        res.sendStatus(500);
+    })
+}); 
