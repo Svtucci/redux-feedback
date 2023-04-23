@@ -4,10 +4,10 @@ import './App.css';
 
 import {HashRouter as Router, Route, Link } from 'react-router-dom';
 
-import CommentsFour from '../Steps/CommentsFour';
-import FeelingOne from '../Steps/FeelingOne';
-import SupportThree from '../Steps/SupportThree';
-import UnderStandTwo from '../Steps/UnderStandTwo';
+import CommentsFour from '../Steps/CommentsFour.jsx';
+import FeelingOne from '../Steps/FeelingOne.jsx';
+import SupportThree from '../Steps/SupportThree.jsx';
+import UnderStandTwo from '../Steps/UnderStandTwo.jsx';
 
 function App() {
 
@@ -23,15 +23,15 @@ function App() {
           <FeelingOne />
         </Route>
 
-        <Route exact path="step-2">
+        <Route exact path="/step-2">
           <UnderStandTwo />
         </Route>
 
-        <Route exact path="step-3">
+        <Route exact path="/step-3">
           <SupportThree />
         </Route>
 
-        <Route exact path="step-4">
+        <Route exact path="/step-4">
           <CommentsFour />
         </Route>
       </Router>
