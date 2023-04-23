@@ -7,7 +7,8 @@ import { createStore, combineReducers, applyMiddleware } from 'redux';
 import logger from 'redux-logger';
 import { Provider } from 'react-redux'; 
 
-const feeling = (state = '', action) => {
+
+const feeling = (state = 0, action) => {
     if (action.type === 'SET_FEELING') {
         return action.payload
     }
