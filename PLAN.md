@@ -4,27 +4,27 @@
     - [x] "Feeling?" appearing?
     - [x] 0-5 
     - [x] Number input field
-    - [] Next button
+    - [x] Next button
     - [] Needs validation and some sort of alert 
 
 2. [] How well are you understanding the content?
     - [x] "Understanding?" appearing?
-    - [] 0-5
-    - [] Number input field
-    - [] Next button 
+    - [x] 0-5
+    - [x] Number input field
+    - [x] Next button 
     - [] Needs validation and some sort of alert 
 
 3. [] How well are you being supported? 
     - [x] "Support" appearing?
-    - [] 0-5 
-    - [] input field 
-    - [] Next button 
+    - [x] 0-5 
+    - [x] input field 
+    - [x] Next button 
     - [] Needs validation and some sort of alert 
 
 4. [] Any comments you want to leave? 
     - [x] "Comments" appearing?
-    - [] Input field 
-    - [] Next button 
+    - [x] Input field 
+    - [x] Next button 
     - [] Does NOT need validation 
 
 5. [] Review your feedback   

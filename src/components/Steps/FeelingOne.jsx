@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 
 function FeelingOne() {
     const feeling = useSelector(store => store.feeling); 
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
     const history = useHistory();
 
     const handleChange = (event) => {
@@ -13,7 +13,7 @@ function FeelingOne() {
 
     const nextPage = (event) => {
         event.preventDefault(); 
-        if (feeling > 0) {
+        if (feeling >= 0) {
             history.push('/step-2');
         } else {
         alert('Please rate your feelings 0-5.')
