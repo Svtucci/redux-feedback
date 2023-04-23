@@ -11,24 +11,29 @@ function FeelingOne() {
         dispatch(action); 
     }
 
-    // const nextPage = (event) => {
-    //     event.preventDefault(); 
-    //     if (feeling > 0) {
-    //         history.push('')
-    //     }
-    // }    
+    const nextPage = (event) => {
+        event.preventDefault(); 
+        if (feeling > 0) {
+            history.push('/step-2');
+        } else {
+        alert('Please rate your feelings 0-5.')
+    }
+    }    
 
     return (
         <>
         <h3>How are you feeling?</h3>
-        <form>
+        <form onSubmit={nextPage}>
             <input 
+                id="feeling"
                 value={feeling} 
                 onChange={handleChange} 
                 type="number"
                 min={0}
                 max={5} 
             />
+            <br />
+            <br />
             <input 
                 type="submit" value="Next"
             />
