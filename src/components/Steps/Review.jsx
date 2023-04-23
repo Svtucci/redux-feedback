@@ -19,7 +19,7 @@ function Review () {
             comments: comment,
         }).then(response => {
             dispatch({ type: 'CLEAR_FORM' });
-            history.push('/feedback-list')
+            history.push('/')
         }).catch(error => {
             alert('Something went wrong. Please try again');
             console.log(error); 
