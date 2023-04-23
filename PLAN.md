@@ -44,6 +44,6 @@
 
  1. First major issue I ran into was the compnents not appearing with the paths...Found it was I forgot / in each "exact path" in the app.jsx 
  2. Payload was spelt incorrect on the first step causing a very odd slice error  bc it wasnt able to figure out state (I think? )
- 3. 
+ 3. Next major issue was submission to DB was getting a proxy error. Possibly from the redux router? 
 
 

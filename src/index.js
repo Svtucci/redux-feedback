@@ -44,6 +44,13 @@ const comment = (state ='Please leave a comment here...', action) => {
     return state; 
 }
 
+const feedback = (state = [], action) => {
+    if(action.type === 'SET_FEEDBACK_LIST') {
+        return action.payload; 
+    }
+    return state; 
+}
+
 const storeInstance = createStore (
     combineReducers(
         {
@@ -51,6 +58,7 @@ const storeInstance = createStore (
             understand,
             support, 
             comment, 
+            feedback, 
             // Add other reducers 
         }
     ), 

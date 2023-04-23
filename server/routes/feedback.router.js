@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
     }).catch((error) => {
         console.log(error);
         res.sendStatus(500);
-    })
+    });
 });
 
 router.post('/', (req, res) => {
@@ -22,7 +22,7 @@ router.post('/', (req, res) => {
     }).catch((error) => {
         console.log(error); 
         res.sendStatus(500); 
-    })
+    });
 }); 
 
 // DELETE ROUTER MAY NOT BE NEEDED DURING SETUP 
@@ -37,3 +37,5 @@ router.delete('/:id', (req, res) => {
         res.sendStatus(500);
     })
 }); 
+
+module.exports = router; 
