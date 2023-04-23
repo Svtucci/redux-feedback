@@ -10,6 +10,7 @@ import SupportThree from '../Steps/SupportThree.jsx';
 import UnderStandTwo from '../Steps/UnderStandTwo.jsx';
 import Review from '../Steps/Review.jsx';
 import FeedbackList from './FeedbackList/FeedbackList';
+import SuccessPage from '../Steps/SuccessPage';
 
 function App() {
 
@@ -43,6 +44,10 @@ function App() {
 
         <Route exact path="/feedback-list">
           <FeedbackList />
+        </Route>
+
+        <Route exact path="/success">
+          <SuccessPage />
         </Route>
 
       </Router>
