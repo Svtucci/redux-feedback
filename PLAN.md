@@ -2,7 +2,7 @@
 
 1. [] How are you feeling today? 
     - [x] "Feeling?" appearing?
-    - [] 0-5 
+    - [x] 0-5 
     - [x] Number input field
     - [] Next button
     - [] Needs validation and some sort of alert 
@@ -28,10 +28,10 @@
     - [] Does NOT need validation 
 
 5. [] Review your feedback   
-    - Review Page that has each components inputs in it 
-    - Submit button will send information back to server 
-    - When button is clicked submission should appear in DB, User should see a success page. 
-    - On this page "Leave new Feedback" button will bring them back to the first step, to repeat a new submission
+    - [] Review Page that has each components inputs in it 
+    - [] Submit button will send information back to server 
+    - [] When button is clicked submission should appear in DB, User should see a success page. 
+    - [] On this page "Leave new Feedback" button will bring them back to the first step, to repeat a new submission
 
 
 ## Thoughts 
@@ -43,6 +43,7 @@
  ## Issues as working
 
  1. First major issue I ran into was the compnents not appearing with the paths...Found it was I forgot / in each "exact path" in the app.jsx 
- 2. 
+ 2. Payload was spelt incorrect on the first step causing a very odd slice error  bc it wasnt able to figure out state (I think? )
+ 3. 
 
 

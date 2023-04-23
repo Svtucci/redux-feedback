@@ -25,9 +25,13 @@ function FeelingOne() {
             <input 
                 value={feeling} 
                 onChange={handleChange} 
-                type="number" />
+                type="number"
+                min={0}
+                max={5} 
+            />
             <input 
-                type="submit" value="Next"/>
+                type="submit" value="Next"
+            />
         </form>
         </>
     )
