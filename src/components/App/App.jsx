@@ -8,6 +8,8 @@ import CommentsFour from '../Steps/CommentsFour.jsx';
 import FeelingOne from '../Steps/FeelingOne.jsx';
 import SupportThree from '../Steps/SupportThree.jsx';
 import UnderStandTwo from '../Steps/UnderStandTwo.jsx';
+import Review from '../Steps/Review.jsx';
+import FeedbackList from './FeedbackList/FeedbackList';
 
 function App() {
 
@@ -34,6 +36,15 @@ function App() {
         <Route exact path="/step-4">
           <CommentsFour />
         </Route>
+
+        <Route exact path="/review">
+          <Review />
+        </Route>
+
+        <Route exact path="/feedback-list">
+          <FeedbackList />
+        </Route>
+
       </Router>
     </div>
   );

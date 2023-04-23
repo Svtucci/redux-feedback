@@ -11,6 +11,8 @@ import { Provider } from 'react-redux';
 const feeling = (state = 0, action) => {
     if (action.type === 'SET_FEELING') {
         return action.payload
+    } else if (action.type === 'CLEAR_FORM') {
+        return 0;
     }
     return state;
 }
@@ -18,6 +20,8 @@ const feeling = (state = 0, action) => {
 const understand = (state = 0, action) => {
     if (action.type === 'SET_UNDERSTAND') {
         return action.payload
+    } else if (action.type === 'CLEAR_FORM') {
+        return 0;
     }
     return state; 
 }
@@ -25,6 +29,8 @@ const understand = (state = 0, action) => {
 const support = (state = 0, action) => {
     if (action.type === 'SET_SUPPORT') {
         return action.payload
+    } else if (action.type === 'CLEAR_FORM') {
+        return 0; 
     }
     return state; 
 }
@@ -32,6 +38,8 @@ const support = (state = 0, action) => {
 const comment = (state ='Please leave a comment here...', action) => {
     if (action.type === 'SET_COMMENT') {
         return action.payload
+    } else if (action.type === 'CLEAR_FORM') {
+        return ''; 
     }
     return state; 
 }

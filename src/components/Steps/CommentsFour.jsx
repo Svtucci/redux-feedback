@@ -13,7 +13,7 @@ function CommentsFour() {
 
     const nextPage = (event) => {
         event.preventDefault(); 
-        history.push('/step-5');
+        history.push('/review');
     }
 
     return (
