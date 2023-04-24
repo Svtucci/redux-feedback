@@ -46,13 +46,14 @@ This is an app that will submit feedback to a server and DB with Redux. Features
 
  - Going to re-watch the classwork which emulates the page setup
  - Firstly going to setup pages as the plan states, once base functionality is present I may change some of the pages to different input types. 
- - I think the hardest part from opening the project up will be the final button to reset the submission. I have a hard time checking if the submission is actually being sent correctly and being reset. 
+ - I think the hardest part from opening the project up will be the final button to reset the submission. I have a hard time checking if the submission is actually being sent correctly and being reset. Or if the page navigation is working as intended. 
 
  ## Issues as working
 
- 1. First major issue I ran into was the compnents not appearing with the paths...Found it was I forgot / in each "exact path" in the app.jsx 
- 2. Payload was spelt incorrect on the first step causing a very odd slice error  bc it wasnt able to figure out state (I think? )
+ 1. First major issue I ran into were the components not appearing with the paths...Found it was I forgot / in each "exact path" in the app.jsx 
+ 2. Payload was spelt incorrect on the first step causing a very odd slice error because it wasnt able to figure out state (I think? )
  3. Next major issue was submission to DB was getting a proxy error. Possibly from the redux router? 
+ The problem was missing line 41 in the feedback.router  
 
 
  ## App Layout
