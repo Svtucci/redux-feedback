@@ -23,7 +23,7 @@ function FeelingOne() {
     return (
         <>
         <h3>On a scale of 0-5, How are you feeling?</h3>
-        <h5>0 being poor, 5 being great</h5>
+        <h5>0 meaning not feeling great, 5 meaning you are feeling great.</h5>
         <form onSubmit={nextPage}>
             <input 
                 id="feeling"

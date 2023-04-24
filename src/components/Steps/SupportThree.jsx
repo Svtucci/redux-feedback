@@ -24,7 +24,7 @@ function SupportThree () {
     return (
         <>
         <h3>On a scale of 0-5, What is your level of support?</h3>
-        <h5>0 meaning you do not feeling support, 5 meaning you feeling support </h5>
+        <h5>0 meaning you do not feel supported, 5 meaning you feel supported. </h5>
         <form onSubmit={nextPage}>
             <input 
                 id="support"

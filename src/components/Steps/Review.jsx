@@ -29,7 +29,7 @@ function Review () {
     return (
         <>
             <h3>REVIEW YOUR FEEDBACK</h3>
-            <div>Feeling: {feeling} </div>
+            <div>Feeling Level: {feeling} </div>
             <div>Understanding Level: {understand} </div>
             <div>Support Level: {support} </div>
             <div>Comments: {comment} </div>
