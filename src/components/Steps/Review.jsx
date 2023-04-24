@@ -33,6 +33,7 @@ function Review () {
             <div>Understanding Level: {understand} </div>
             <div>Support Level: {support} </div>
             <div>Comments: {comment} </div>
+            <br />
             <button onClick={sendToServer}>Submit</button>
         </>
     )

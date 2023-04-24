@@ -1,37 +1,37 @@
 ## PAGES TO CREATE 
 
-1. [] How are you feeling today? 
+1. [x] How are you feeling today? 
     - [x] "Feeling?" appearing?
     - [x] 0-5 
     - [x] Number input field
     - [x] Next button
-    - [] Needs validation and some sort of alert 
+    - [x] Needs validation and some sort of alert, instead changed it so users can only put 0-5
 
-2. [] How well are you understanding the content?
+2. [x] How well are you understanding the content?
     - [x] "Understanding?" appearing?
     - [x] 0-5
     - [x] Number input field
     - [x] Next button 
-    - [] Needs validation and some sort of alert 
+    - [x] Needs validation and some sort of alert, instead changed it so users can only put 0-5
 
-3. [] How well are you being supported? 
+3. [x] How well are you being supported? 
     - [x] "Support" appearing?
     - [x] 0-5 
     - [x] input field 
     - [x] Next button 
-    - [] Needs validation and some sort of alert 
+    - [x] Needs validation and some sort of alert, instead changed it so users can only put 0-5 
 
-4. [] Any comments you want to leave? 
+4. [x] Any comments you want to leave? 
     - [x] "Comments" appearing?
     - [x] Input field 
     - [x] Next button 
     - [] Does NOT need validation 
 
-5. [] Review your feedback   
-    - [] Review Page that has each components inputs in it 
-    - [] Submit button will send information back to server 
-    - [] When button is clicked submission should appear in DB, User should see a success page. 
-    - [] On this page "Leave new Feedback" button will bring them back to the first step, to repeat a new submission
+5. [x] Review your feedback   
+    - [x] Review Page that has each components inputs in it 
+    - [x] Submit button will send information back to server 
+    - [x] When button is clicked submission should appear in DB, User should see a success page. 
+    - [x] On this page "Leave new Feedback" button will bring them back to the first step, to repeat a new submission
 
 
 ## Thoughts 
@@ -47,3 +47,13 @@
  3. Next major issue was submission to DB was getting a proxy error. Possibly from the redux router? 
 
 
+ ## App Layout
+
+1. I changed the validation to remove some possible user error, instead of letting a User select any amount of number I only gave them a scale of 0-5 to denote what level 
+2. I created a separate success page that will only be navigated to if the review submission is successful so I am wondering if that also counts towards base mode. 
+
+
+## Things to add
+1. Nav bar on top to show User where they are in the process
+2. More MUI 
+3. More alerts to signal to Users if what they are doing is incorrect
